@@ -1,0 +1,7 @@
+1.conexion desde el starup
+<add name="EmployeeAppDB" connectionString="Data Source=.;Initial Catalog=StoreDB;Integrated Security=true" providerName="System.Data.SqlClient"/>
+
+2.conexion para que se genere los modelos de las tablas en visual
+Scaffold-DbContext "Server=.;Database=StoreDB;Trusted_Connection=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+	
